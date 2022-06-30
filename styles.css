@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+}
+
+
+
+ul {
+  list-style: none;
+  font-family: 'fontello-custom';
+  color: black;
+  text-indent: -1em;
+}
+
+li::before {
+  content: "\2022";
+  color: red;
+  display: inline-block;
+  text-align: left;
+  width: 1em;
+}
+.iletisim {
+  color: black;
+  padding: 0;
+}
+
+.iletisim h5 h4{
+  margin: 0;
+}
+.iletisim-cep h4{
+margin 0
+}
+.iletisim-adres{
+  padding-top: 2%;
+
+}
+.iletisim-adres h5{
+  padding-top: 2%;
+  margin: 0;
+}
+
+
+
+
+#title {
+  background-image: url(images/silver.jpeg);
+  height: 15%;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  padding-bottom: 2%
+}
+
+.title-info {
+  margin: 0 10%;
+  padding: 3% 0;
+  color: #444444;
+  font-family: 'Open Sans', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+  font-size: 28px;
+}
+
+.middle {
+  padding: 2% 10%;
+  font-family: 'Open Sans', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+  color: red;
+}
+
+.first {
+  padding: 0 10%;
+}
+
+@media (max-width: 991px) {
+  .second {
+    padding: 0 10%
+  }
+
+  .third {
+    padding: 0 10%
+  }
+
+  .iletisim {
+    color: black;
+    padding: 0 0 5%;
+  }
+}
